@@ -1,0 +1,41 @@
+body {
+  margin: 0 50px;
+  box-sizing:content-box;
+}
+
+.tryptich {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:50px 0;
+}
+
+.third {
+  flex:1 1 33%;
+  height:400px;
+  display: flex;
+  background-color: aqua;
+}
+
+.third img {
+  flex:1 1 33%;
+  object-fit: cover;
+  width:30%;
+}
+
+.third blockquote {
+  padding:80px;
+  font-size: 2em;
+}
+
+
+
+@media screen and (max-width:900px) {
+  .tryptich {
+    flex-direction: column;
+  }
+
+  .third img{
+    height: 400px;
+  }
+}
