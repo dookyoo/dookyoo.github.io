@@ -1,0 +1,87 @@
+* {
+  /* margin:0; */
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.anibox {
+  background: url("images/merlin_185263464_04bcbf4e-3b0f-444a-b56b-8c3f6ef63706-articleLarge.webp") no-repeat center fixed;
+  background-size: cover;
+  position:relative;
+  height:100vh;
+}
+
+.anibox > img {
+  position:absolute;
+  left:-20%;
+  top:0;
+  width:30%;
+  animation: birdfly1 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes birdfly1 {
+  0% {left: 0%;top:30%;transform: rotate(30deg);
+  }
+  33% {left:33%;top:35%;transform: rotate(140deg);
+  }
+  100% {left:66%;top:50%;transform: rotate(270deg);
+  }
+}
+
+
+.stage {
+  width:60%;
+  margin:auto;
+  border:2px solid red;
+  height: 200px;
+  overflow: hidden;
+}
+
+.slidewrapper {
+  width:400%;
+  height: 100%;
+  animation:slideshow 4s infinite;
+}
+
+.callout {
+  position: relative;
+  left: 50%;
+  width:140px;
+  height: 50px;
+  background-color: gray;
+}
+
+@keyframes slideshow {
+ 0% {margin-left:0%;}
+ 25% {margin-left:-100%;}
+ 50% {margin-left:-200%;}
+ 75% {margin-left:-300%;}
+}
+
+.stage div div {
+  /* border:2px solid blue; */
+  height: 100%;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.s1  {
+  /* background-color: greenyellow; */
+  background-image: url(images/60b26de3e6c75800045089a2.png);
+  background-size: 100% 100%;
+}
+
+.s2:nth-child(2) {
+  background-color: rgb(255, 186, 47);
+}
+
+
+.s2:nth-child(3){
+  background-color: rgb(47, 255, 116);
+}
+
+.s4 {
+  background-color: rgb(109, 47, 255);
+}

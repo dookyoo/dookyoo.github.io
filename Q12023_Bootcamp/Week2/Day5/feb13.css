@@ -1,0 +1,89 @@
+body {
+  background-color: aquamarine;
+}
+
+.gridbox {
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  gap:10px;
+  background-color:darkkhaki;
+  margin-bottom:20px;
+}
+
+.gridbox > div {
+  border:1px solid red;
+  background-color: beige;
+}
+
+/** FLexbox **/
+/* normally don't define the height in parent level**/
+.flexbox {
+  margin-top:100px;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: firebrick;
+  justify-content: center;
+  align-items: center;
+  height:500px;
+}
+
+.flexbox > div {
+  border:3px solid rgb(0, 64, 255);
+  background-color: beige;
+  /* width: 24%; */
+  height:200px;
+  text-align: left;
+}
+
+.img-center {
+  justify-content: center;
+}
+
+.flexbox > div > img {
+  width: 50%;
+}
+
+
+
+.flexbox > .sub2 {
+  height:300px;
+  align-self:;
+  order:;
+  flex;
+
+}
+
+.herobox {
+  background-color: blueviolet;
+  height: 200px;
+  position: relative;
+}
+
+.herobox > img {
+  width:30%;
+}
+
+.herobox > div {
+  position: absolute;
+  top:20%;
+  left:40%;
+  color:white;
+  font-size: 2em;
+}
+
+.herobox > .nyc {
+  height:90%;
+  width:80%;
+  position: absolute;
+  left:50%;
+  top:40%;
+}
+
+@media screen and (max-width:800px) {
+  body { 
+    background-color: violet;}
+  
+  .mainbox > div { 
+    width:100%; 
+
+}

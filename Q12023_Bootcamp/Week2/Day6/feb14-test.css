@@ -1,0 +1,83 @@
+body {
+  margin:0;
+  background-color: salmon;
+}
+
+.mouths-container {
+  position: relative;
+  height:100vh;
+}
+
+.mouths-container > .bigmouth {
+  position: absolute;
+  left:50%;
+  top:50%;
+  height:1%;
+  animation: bigmouth 3s infinite;
+  animation-timing-function: ease-in;
+}
+
+.mouths-container > .bigmouth2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height:1%;
+  animation: bigmouth2 3s infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+}
+
+.mouths-container > .bigmouth3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height:1%;
+  animation: bigmouth3 3s infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+}
+
+@keyframes bigmouth {
+  0% {
+    left: 50%;
+    top:50%;
+    height: 1%;
+  }
+  100% {
+    left: 20%;
+    top:-30%;
+    height: 150%;
+  }
+}
+
+
+@keyframes bigmouth2 {
+  0% {
+    left: 50%;
+    top:50%;
+    height: 1%;
+  }
+  100% {
+    left: 20%;
+    top:-30%;
+    height: 150%;
+  }
+}
+
+@keyframes bigmouth3 {
+  0% {
+    left: 50%;
+    top:50%;
+    height: 1%;
+  }
+  100% {
+    left: 20%;
+    top:-30%;
+    height: 150%;
+  }
+}
+
+
+.word {
+  
+}
