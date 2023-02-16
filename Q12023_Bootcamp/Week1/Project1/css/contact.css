@@ -1,5 +1,6 @@
 body {
   background-color: aquamarine;
+  box-sizing: content-box;
 }
 
 /*** Font styling ***/
