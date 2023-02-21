@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     background:  center/cover no-repeat scroll url('../art/matrix.webp')  rgb(0, 0, 0);
+    margin-bottom:50px;
 }
 
 .container-wrap {
