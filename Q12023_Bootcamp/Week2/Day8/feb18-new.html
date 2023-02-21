@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation bar with CSS</title>
+  <link rel="stylesheet" href="feb18-new.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  <nav>
+
+    <ul class="menu" >
+
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Products</a></li>
+      <li><a href="">Contact</a></li>
+
+    </ul>
+
+
+    <ul class="menu2" >
+
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Products</a></li>
+      <li><a href="">Contact</a></li>
+
+    </ul>
+  </nav>
+
+
+
+  <nav class="nav nav-pills bg-warning">
+    <a class="nav-item nav-link" href="">Home</a>
+    <a class="nav-item nav-link active" href="">About</a>
+    <a class="nav-item nav-link" href="">Product</a>
+    <a class="nav-item nav-link" href="">Contact</a>
+  </nav>
+
+  <nav class="navbar navbar-expand">
+    <div class="navbar-nav nav-tabs">
+    <a class="nav-item nav-link" href="">Home</a>
+    <a class="nav-item nav-link" href="">About</a>
+    <a class="nav-item nav-link" href="">Product</a>
+    <a class="nav-item nav-link" href="">Contact</a>
+    </div>
+  </nav>
+
+    <!-- hamburger menu  -->
+  <nav class="navbar navbar-expand-sm">
+    <a class="navbar-brand" href="">Brand</a>
+    <button class="navbar-toggle" data-bs-target="#sesame" data-bs-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="sesame" class="navbar-collapse collapse" >
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="">Home</a>
+        <a class="nav-item nav-link" href="">About</a>
+        <a class="nav-item nav-link" href="">Product</a>
+        <a class="nav-item nav-link" href="">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <br><br>
+
+
+    
+
+
+
+    <!--  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 card border border-danger"> <h1>Title</h1><div class="card-body"> <img src="" alt=""> </div> <button class="btn btn-suc
+        ">click me</button></div>
+      <div class="col-sm-4 card border border-danger"> <h1>Title</h1> <img src="" alt=""> <button data-bs-target="#kiwi" data-bs-toggle="modal">click me</button></div>
+      <div class="col-sm-4 card border border-danger"> <h1>Title</h1> <img src="" alt=""> <button>click me</button></div>
+    </div>
+  </div>
+
+      <!--  -->
+
+  
+  <div class="modal" id="kiwi">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">Title</div>
+        <div class="modal-body">Body</div>
+        <div class="modal-footer"></div>
+        <button data-bs-dismiss="modal">close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

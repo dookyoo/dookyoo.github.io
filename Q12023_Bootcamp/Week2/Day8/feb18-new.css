@@ -1,0 +1,66 @@
+body {
+  background-color: khaki;
+}
+
+ul {
+}
+
+.menu {
+  width: 25%;
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu li {
+  background-color: aqua;
+  width: 200px;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 24px 33%;
+  height: 24px;
+  display: inline-block;
+  width:34%;
+}
+
+.menu li a:hover {
+  background-color: rgb(26, 206, 206);
+
+}
+
+.menu2 {
+  background-color: rgb(9, 9, 9);
+  height: 70px;
+}
+
+.menu2 li {
+  background-color: rgb(102, 255, 0);
+  /* display: inline; */
+  width: 23%;
+  float: left;
+  list-style-type: none;
+
+}
+
+.menu2 li a {
+  text-decoration: none;
+  padding: 24px 33%;
+  height: 24px;
+  display: inline-block;
+  width:34%;
+
+}
+
+.menu2 li a:hover {
+  background-color: lightsalmon;
+
+}
+
+/* hmaburger menu */
+
+.container {
+  
+}
+
+.burger

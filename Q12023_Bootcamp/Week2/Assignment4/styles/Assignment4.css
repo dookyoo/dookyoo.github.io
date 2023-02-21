@@ -1,0 +1,121 @@
+html,
+body {
+    height: 100%;
+    background:  center/cover no-repeat scroll url('../art/matrix.webp')  rgb(0, 0, 0);
+}
+
+.container-wrap {
+    margin-top:100px;
+    /* background-color: aqua; */
+        height: 100%;
+        gap:5%;
+
+}
+
+.card {
+    box-shadow: 0px 0px 100px rgba(76, 255, 94, 0.9);
+    padding:15px;
+}
+
+/* Modal */
+
+.modal-wrap {
+
+}
+
+#bluepill, #redpill {
+    background-color: rgba(0, 29, 0, 0.8);
+    position: fixed;
+    left:0;
+    right:0;
+    top:0%;
+    bottom: 0%;
+    width: 100%;
+    visibility: hidden;
+}
+
+#bluepill:target, #redpill:target {
+  visibility:visible;
+
+}
+
+.close {
+    background-color: black;
+    width: 10px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left:auto;
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    height:300px;
+    margin-bottom:20px;
+}
+
+
+.modal-1 {
+background-color: green;
+    visibility: hidden;
+}
+
+.btn {}
+
+
+/* Grid */
+
+.shell {
+    margin:0 auto;
+    width: 600px;
+    
+}
+
+.shell>div {
+    border: 1px solid red;
+}
+
+.left {
+
+}
+
+img.half {
+    width: 100%;
+}
+
+.right {
+
+}
+
+.row1,.row2,.row3 {
+    border: 1px solid pink;
+    height: 33%;
+}
+
+.row img {
+    object-fit: cover;
+    transform: scaleX(-1);
+    background-position: 10% 0;
+}
+
+.smallimg {
+    display: block;
+    width: 100%;
+    border: 1px solid gainsboro;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
