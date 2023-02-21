@@ -32,6 +32,7 @@ body {
     bottom: 0%;
     width: 100%;
     visibility: hidden;
+    z-index: 1000;
 }
 
 #bluepill:target, #redpill:target {
